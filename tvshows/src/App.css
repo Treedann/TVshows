@@ -1,0 +1,126 @@
+:root {
+  --dark: #374151;
+  --darker: #1F2937;
+  --darkest: #1f2023;
+  --gray: #6B7280;
+  --light: #EEE;
+  --pink: #EC4899;
+  --purple: #885Cf6;
+  --red: rgb(198, 19, 19);
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: var(--darkest);
+  position: fixed;
+  box-shadow: 0 5px 0 rgb(219, 22, 22);
+}
+
+.navbar .container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 1rem;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.navbar-menu li {
+  display: inline-block;
+}
+
+.navbar-menu li a { 
+  display: inline-block;
+  color: var(--light);
+  text-decoration: none;
+  padding: 1rem;
+  font-size: larger;
+  opacity: 0.6;
+}
+
+.navbar-menu li a:hover {
+  opacity: 1;
+  transition: all 0.15s ease-in-out;
+}
+
+.navbar-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sign {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  font-size: larger;
+  text-decoration: none;
+  color: var(--light);
+}
+
+.sign:hover {
+  transform: scale(1.1);
+  color: var(--purple);
+  transition: all 0.15s ease-out;
+}
+
+.modal {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s all;
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--light);
+  transform: scale(1);
+  transition: 0.4s all;
+  width: 30%;
+}
+
+.validation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin: 0 0 20px 0;
+  width: 70%;
+  height: 25px;
+  border-radius: 6px;
+}
+
+.button {
+  background-color: var(--dark);
+  color: var(--light);
+  width: 30%;
+  height: 2rem;
+  border-radius: 10px;
+  font-size: medium;
+}
+
