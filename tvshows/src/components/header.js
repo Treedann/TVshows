@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Modal from "./modal";
 import logo from "../assets/logo.png";
-import { Routes, Route, Link } from "react-router-dom";
-import TVshows from "./Pages/TVshows";
-import Subscription from "./Pages/subscription";
-import Profile from "./Pages/profile";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [modalUpActive, setModalUpActive] = useState();
@@ -15,9 +12,7 @@ const Header = () => {
   const [emailDirty, setEmailDirty] = useState(false);
   const [passwordDirty, setPasswordDirty] = useState(false);
   const [emailError, setEmailError] = useState("Your email cannot be empty.");
-  const [passwordError, setPasswordError] = useState(
-    "Your password cannot be empty."
-  );
+  const [passwordError, setPasswordError] = useState("Your password cannot be empty.");
   const [formValid, setFormValid] = useState(false);
 
   useEffect(() => {
@@ -80,17 +75,17 @@ const Header = () => {
     <div>
       <nav className="navbar">
         <div className="container">
-        <Link to="/"><img src={logo} width="120" height="90" className="logo" alt="" /></Link>
+        <Link to="/home"><img src={logo} width="120" height="90" className="logo" alt="" /></Link>
 
           <div className="navbar-wrap">
             <ul className="navbar-menu">
               <li><Link to='/TVshows'>TV Shows </Link></li>
               <li><Link to='/sub'>Subscription </Link></li>
-              <li> <Link to='/profile'>Profile </Link></li>
+              <li><Link to='/profile'>Profile </Link></li>
             </ul>
 
             <Link to="/" name="signUp" onClick={() => setModalUpActive(true)} className="sign">Sign up </Link>
-            <Link to="/" name="signIn" onClick={() => setModalInActive(true)} className="sign">Sign in</Link>
+            <Link to="/" name="signIn" onClick={() => setModalInActive(true)} className="sign">Sign in </Link>
           </div>
         </div>
       </nav>

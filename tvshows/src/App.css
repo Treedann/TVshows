@@ -7,6 +7,7 @@
   --pink: #EC4899;
   --purple: #885Cf6;
   --red: rgb(198, 19, 19);
+  --blue: #06c;
 }
 
 .navbar {
@@ -38,7 +39,7 @@
   display: inline-block;
 }
 
-.navbar-menu li a { 
+.navbar-menu li a {
   display: inline-block;
   color: var(--light);
   text-decoration: none;
@@ -124,3 +125,65 @@
   font-size: medium;
 }
 
+.homePage {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.search-area {
+  background-color: var(--darkest);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 30rem;
+  height: 2.5rem;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+  font-size: medium;
+}
+
+.home-button {
+  width: 5rem;
+  height: 2.5rem;
+  background-color: rgb(219, 22, 22);
+  color: var(--light);
+  font-size: medium;
+  border-width: 0.1px;
+}
+
+.block-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5rem 1rem;
+}
+
+.component {
+  width: 300px;
+}
+
+.component h4 {
+  color: var(--blue);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.link-to {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.link-to:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
