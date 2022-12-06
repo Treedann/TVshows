@@ -75,7 +75,7 @@ const Header = () => {
     <div>
       <nav className="navbar">
         <div className="container">
-        <Link to="/home"><img src={logo} width="120" height="90" className="logo" alt="" /></Link>
+        <Link to="/"><img src={logo} width="120" height="90" className="logo" alt="" /></Link>
 
           <div className="navbar-wrap">
             <ul className="navbar-menu">
@@ -84,8 +84,8 @@ const Header = () => {
               <li><Link to='/profile'>Profile </Link></li>
             </ul>
 
-            <Link to="/" name="signUp" onClick={() => setModalUpActive(true)} className="sign">Sign up </Link>
-            <Link to="/" name="signIn" onClick={() => setModalInActive(true)} className="sign">Sign in </Link>
+            <Link to="/home" id="signUp" onClick={() => setModalUpActive(true)} className="sign">Sign up </Link>
+            <Link to="/home" id="signIn" onClick={() => setModalInActive(true)} className="sign">Sign in </Link>
           </div>
         </div>
       </nav>
@@ -147,14 +147,7 @@ const Header = () => {
             type="password"
             placeholder="Enter your password"
           />
-          <button
-            className="button"
-            disabled={!formValid}
-            onClick={() => signInChecker(email, password)}
-            type="submit"
-          >
-            Authorization
-          </button>
+          <button className="button" disabled={!formValid} onClick={() => signInChecker(email, password)} type="submit">Authorization </button>
         </form>
       </Modal>;
     

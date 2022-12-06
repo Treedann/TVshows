@@ -22,10 +22,10 @@ const Home = () => {
             <div>
                 <h1>Now popular</h1>
                 <div className="block-component">
-                    <BlockComponent src={wednesday} name="Wednesday" />
-                    <BlockComponent src={HouseOfTheDragon} name="House of the Dragon" />
-                    <BlockComponent src={l899} name="1899" />
-                    <BlockComponent src={RickAndMorty} name="Rick and Morty" />
+                    <BlockComponent src={wednesday} width="300px" height="170px" name="Wednesday" />
+                    <BlockComponent src={HouseOfTheDragon} width="300px" height="170px" name="House of the Dragon" />
+                    <BlockComponent src={l899} width="300px" height="170px" name="1899" />
+                    <BlockComponent src={RickAndMorty} width="300px" height="170px" name="Rick and Morty" />
                 </div>
                 <Link className="link-to" to="/TVshows">TV Shows ratings</Link>
                 <Routes>
@@ -33,10 +33,18 @@ const Home = () => {
                 </Routes>
                 <h1>TV series news</h1>
                 <div className="block-component">
-                    <BlockComponent src={Brainstorm} name="Watch a teaser trailer for Brainstorm from the creators of Ted Lasso" text="New comedy with Jason Segel and Harrison Ford." />
-                    <BlockComponent src={Joker} name="7 more great pictures about loneliness" text="This time the movies are recommended by MyShows users - thanks for your comments." />
-                    <BlockComponent src={WhenYouFinishSavingtheWorld} name="Trailer for dramedy When You Finish Saving the World with Julianne Moore and Finn Wolfhard released" text="Jesse Eisenberg's directorial debut will be released in January." />
-                    <BlockComponent src={Wednesday} name="'Wednesday' beats 'Stranger Things' in terms of views" text="The series has become the most watched English-language show in Netflix history." />
+                    <BlockComponent src={Brainstorm} width="300px" height="170px" 
+                    name="Watch a teaser trailer for Brainstorm from the creators of Ted Lasso" 
+                    text="New comedy with Jason Segel and Harrison Ford." />
+                    <BlockComponent src={Joker} width="300px" height="170px" 
+                    name="7 more great pictures about loneliness" 
+                    text="This time the movies are recommended by MyShows users - thanks for your comments." />
+                    <BlockComponent src={WhenYouFinishSavingtheWorld} width="300px" height="170px" 
+                    name="Trailer for dramedy When You Finish Saving the World with Julianne Moore and Finn Wolfhard released" 
+                    text="Jesse Eisenberg's directorial debut will be released in January." />
+                    <BlockComponent src={Wednesday} width="300px" height="170px" 
+                    name="'Wednesday' beats 'Stranger Things' in terms of views" 
+                    text="The series has become the most watched English-language show in Netflix history." />
                 </div>
             </div>
         </div>

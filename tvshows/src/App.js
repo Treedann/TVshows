@@ -14,7 +14,7 @@ class App extends React.Component {
 
       <div style={{marginTop: "49px"}}>
         <Routes>
-          <Route path='/home' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/TVshows' element={<TVshows />} />
           <Route path='/sub' element={<Subscription />} />
           <Route path='/profile' element={<Profile />} />
