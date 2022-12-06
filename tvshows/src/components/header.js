@@ -84,8 +84,8 @@ const Header = () => {
               <li><Link to='/profile'>Profile </Link></li>
             </ul>
 
-            <Link to="/home" id="signUp" onClick={() => setModalUpActive(true)} className="sign">Sign up </Link>
-            <Link to="/home" id="signIn" onClick={() => setModalInActive(true)} className="sign">Sign in </Link>
+            <Link to="/" id="signUp" onClick={() => setModalUpActive(true)} className="sign">Sign up </Link>
+            <Link to="/" id="signIn" onClick={() => setModalInActive(true)} className="sign">Sign in </Link>
           </div>
         </div>
       </nav>
