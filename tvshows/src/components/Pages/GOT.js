@@ -75,7 +75,7 @@ const GOT = () => {
         </div>
         <div className="plot-title">
           <h3 className="plot">Plot</h3>
-          <div>
+          <div className="plotText">
             Based on the bestselling book series A Song of Ice and Fire by
             George R.R. Martin, this sprawling new HBO drama is set in a world
             where summers span decades and winters can last a lifetime. From the

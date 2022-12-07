@@ -75,7 +75,7 @@ const TheLastKingdom = () => {
         </div>
         <div className="plot-title">
           <h3 className="plot">Plot</h3>
-          <div>
+          <div className="plotText">
             The Last Kingdom is a show of heroic deeds and epic battles but with
             a thematic depth that embraces politics, religion, warfare, courage,
             love, loyalty and our universal search for identity. Combining real

@@ -75,7 +75,7 @@ const Bang = () => {
         </div>
         <div className="plot-title">
           <h3 className="plot">Plot</h3>
-          <div>
+          <div className="plotText">
             The Big Bang Theory is a comedy about brilliant physicists, Leonard
             and Sheldon, who are the kind of "beautiful minds" that understand
             how the universe works. But none of that genius helps them interact

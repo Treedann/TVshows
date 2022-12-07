@@ -46,7 +46,7 @@ const Home = () => {
                 <div className="block-component">
                     <BlockComponent src={"https://media.myshows.me/shows/1920/8/8b/88b22b735dca8e03a3dec6cbe7dd00f3.jpg"} width="300px" height="170px" name="Black Books" text="69 326 watching" />
                     <BlockComponent src={"https://media.myshows.me/shows/1920/e/96/e969e126f75ee7e59d761065fbf3e949.jpg"} width="300px" height="170px" name="The IT Crowd" text="57 796 watching" />
-                    <BlockComponent src={"https://media.myshows.me/shows/1920/b/79/b79a2d4f0c7e91558b9bd489b11a1d58.jpg"} width="300px" height="170px" name="Father Ted" text="3 927 watching" />
+                    <BlockComponent src={"https://media.myshows.me/shows/1920/d/8a/d8a132b452e071071395d7a93a321cb0.jpg"} width="300px" height="170px" name="Father Ted" text="3 927 watching" />
                     <BlockComponent src={"https://media.myshows.me/shows/1920/1/43/143ddbbac322d1e24d36c0be6074b2ae.jpg"} width="300px" height="170px" name="Blackadder" text="	3 329 watching" />
                 </div>
             </div>

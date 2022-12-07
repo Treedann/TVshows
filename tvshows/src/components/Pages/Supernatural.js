@@ -75,7 +75,7 @@ const Supernatural = () => {
         </div>
         <div className="plot-title">
           <h3 className="plot">Plot</h3>
-          <div>
+          <div className="plotText">
             More than ten years ago this TV-show started as a history about two
             brothers saving people and hunting things. They were trying to find
             their dad who once taught them this family business. Now it's a

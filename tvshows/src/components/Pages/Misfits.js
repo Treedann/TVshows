@@ -75,7 +75,7 @@ const Misfits = () => {
         </div>
         <div className="plot-title">
           <h3 className="plot">Plot</h3>
-          <div>
+          <div className="plotText">
             When five young outsiders on Community Service get caught in a
             strange storm, they discover that they have developed superpowers.
           </div>

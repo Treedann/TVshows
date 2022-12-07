@@ -75,7 +75,7 @@ const Friends = () => {
         </div>
         <div className="plot-title">
           <h3 className="plot">Plot</h3>
-          <div>
+          <div className="plotText">
             Six young (20-something) people from New York City (Manhattan), on
             their own and struggling to survive in the real world, find the
             companionship, comfort and support they get from each other to be

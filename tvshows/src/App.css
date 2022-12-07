@@ -307,7 +307,7 @@
 
 .tv-shows-head {
   margin-top: 2%;
-  width: 690px;
+  width: 815px;
   display: inline-block;
   border-bottom: 3px solid var(--red);
 }
@@ -317,15 +317,15 @@
 }
 
 .tv-show-rating {
-  margin-left: 27%;
+  margin-left: 33%;
 }
 
 .tv-show-watched-by {
-  margin-left: 10%;
+  margin-left: 16%;
 }
 
 .tv-show-year {
-  margin-left: 9%;
+  margin-left: 13.75%;
 }
 
 .patrick {
@@ -373,6 +373,10 @@
   cursor: pointer;
   color: var(--red);
   text-decoration: underline;
+}
+
+.sherlock-page {
+  padding-top: 1rem;
 }
 
 .sherlock-image {
@@ -429,7 +433,7 @@ td {
 .description {
   position: absolute;
   margin-left: 53%;
-  margin-top: -33%;
+  margin-top: -29%;
 }
 
 .plot {
@@ -437,14 +441,19 @@ td {
   width: 50px;
 }
 
+.plotText {
+  padding: 0 1rem 1rem 0;
+}
+
 .pro-icon {
   background-color: var(--red);
   margin-left: 1%;
-  padding: 5px 8px;
+  padding: 2px 4px;
   border-radius: 3px;
   color: white;
   font-weight: 500;
   width: 400px;
+  font-size: 9px;
 }
 
 .option-sub1 {

@@ -13,7 +13,7 @@ const StrangerThings = () => {
             Shows /
           </Link>
         </div>
-        <h2 className="page-title">Friends</h2>
+        <h2 className="page-title">Stranger Things</h2>
         <img
           src="https://media.myshows.me/shows/1920/9/15/915b56d169568a7431e671770d426f60.jpg"
           className="sherlock-image"
@@ -75,7 +75,7 @@ const StrangerThings = () => {
         </div>
         <div className="plot-title">
           <h3 className="plot">Plot</h3>
-          <div>
+          <div className="plotText">
             A love letter to the '80s classics that captivated a generation,
             Stranger Things is set in 1983 Indiana, where a young boy vanishes
             into thin air. As friends, family and local police search for

@@ -75,7 +75,7 @@ const Sherlock = () => {
         </div>
         <div className="plot-title">
           <h3 className="plot">Plot</h3>
-          <div>
+          <div className="plotText">
             A veteran of Afghan war is suffering from PTSD and urgently needs to
             find a new flatmate. His friend introduces him to a possible
             companion - mister Sherlock Holmes, self-proclaimed genius,
